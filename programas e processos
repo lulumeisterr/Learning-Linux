@@ -1,0 +1,18 @@
+ps - Lista os processos que estão sendo executados no momento
+
+ps -e = Mostra todos os processos do meu sistema
+
+ps -ef = Exibe informaçes detalhadas dos programas/processos
+
+grep = Filtragem de linhas { Ex: mostras as linhas que so tem a palavra firefox ou Ler so as linhas que tem a palavra Texto }
+                                                            ou
+                           { cat exemplo.txt | grep Mostrar Linhas }
+| = pipeline
+
+kill +ID = Parando a execução do processo/programa {da um boi}
+
+kill -9 +ID = fechapohatodaNTC
+
+top = Mostra a situação dos processos ex { 15% cpu / memoria etc }
+
+saber quantos programas estão abertos ex {ps -ef | grep top}
