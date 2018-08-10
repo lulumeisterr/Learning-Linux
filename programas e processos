@@ -16,3 +16,16 @@ kill -9 +ID = fechapohatodaNTC
 top = Mostra a situação dos processos ex { 15% cpu / memoria etc }
 
 saber quantos programas estão abertos ex {ps -ef | grep top}
+
+pstree - você vê os processos sendo executados em uma estrutura de arvore
+
+------------------------
+
+verificando arquivos em background
+
+jobs -> Exibe arquivos parados 
+bg 1 -> Joga o processo para background e destrava o bash
+fg 1 -> volta para o forground e trava o bash
+
+-------------------------
+
