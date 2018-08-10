@@ -1,0 +1,103 @@
+CURSO DE LINUX
+
+pwd - Saber qual diretorio eu estou
+
+echo - Dar uma mensagem
+
+> - Redirecionamento para algum lugar
+>> - Realizando concatenacao ( echo "Faithless" >> musicas-favoritas.txt )
+
+cat - Ler arquivo ( se vc tiver varios arquivos com mesmo nome e versoes diferentes basta dar cat nomeArquivo?.txt ou cat *.txt ou outra nomenclatura )
+
+ls . - Diretorio atual
+ls - lista de arquivos
+ls -l - Exibe os diretorios , " Letra d no começo é um diretorio "
+ls -la - Exibe todos arquivos de diretorios e inclusive os invisiveis ( Arquivos invisiveis começam com . )
+ls / - Raiz do HD
+ls home - onde fica os diretorios da maquina
+
+man - comando de ajuda (Ex: man pwd , man ls)
+
+whoami - Exibe o usuario no linux
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Mudando o diretorio
+
+cd - change directory e vc passa o diretorio (Ex : cd Desktop)
+cd .. - Voltando para o diretorio
+
+mkdir workspace - Criando diretorio
+rmdir - removendo um diretorio /so paga diretorio vazio
+rm - apagando arquivo
+rm -r diretorio / Apagando diretorio recursivamente 
+
+ 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Copiando removendo e alterando
+
+cp - Copiar arquivo
+mv - Mover arquivo e renomear
+
+--------------------------------------
+
+Compactar o diretorio
+
+zip -r nomeDoZip ArquivoAserCompactado
+
+Descompactando
+
+unzip -l NomeDoZIPCriado = Mostra o'que tem dentro do zip
+
+
+--------------------------------------
+
+Compactando e zipando
+
+-c indica ao comando tar que desejamos criar um novo arquivo
+-z para indicar que queremos, além de criar um único arquivo
+
+Compactar tar -czf work.tar.gz workspace/
+descompactar tar -xzf work.tar.gz
+
+
+tar -cz nomeArquivo > redirecionar.tar.gz
+
+tar -x{extract} -xz z{zip} < {realizandoLeitura} arquivo.tar.gz
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+mostrar o dia com %d
+%Y. Para mostrar o nome completo do mês
+%B. O nome do mês pode estar em um idioma diferente
+%C traz o século,
+%A é o nome do dia da semana.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Ler Arquivos tops
+
+head - Retorna as 10 primeiras linhas { had nomearquivo.txt }
+tail - tras as 10 ultimas linhas {tail nomearquivo.txt }
+less - abre arquivo e pode usar a seta para navegar no arquivo {less nomearquivo.txt}
+
+
+
+touch apenas toca no arquivo para alterar data. Ex: touch mensagem.txt
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
